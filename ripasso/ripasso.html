@@ -1,0 +1,51 @@
+<html>
+    
+<head>
+
+</head>
+
+<body>
+    <h1>RIPASSO </h1>
+    <h3>cambiare colore al quadrato tramite pulsanti </h3>
+    
+<br />
+    <div
+    id="div1"
+    style="
+    height: 100px;
+    width: 100px;
+    border-color: black;
+    border-style: solid;
+    "
+    
+    ></div>
+    <br />
+    <button id="btnV">Verde </button>
+    <button id="btnR">Rosso </button>
+
+    <script>
+        document.getElementById("btnV").addEventListener("click" ,()=> {
+        document
+        .getElementById("div1")
+        .setAttribute(
+            "style",
+                "height: 100px;width: 100px;border-color: black;"
+                +"border-style: solid;background-color : green"
+        );
+    });
+    x
+        document.getElementById("btnR").addEventListener("click" ,()=> {
+        document
+        .getElementById("div1")
+        .setAttribute(
+            "style",
+                "height: 100px;width: 100px;border-color: black;"
+                +"border-style: solid;background-color : red"
+        );
+    });
+
+    </script>
+</body>
+
+
+</html>
